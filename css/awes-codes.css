@@ -1,0 +1,8 @@
+
+.icon-mic:before { content: '\e800'; } /* '' */
+.icon-beaker:before { content: '\e801'; } /* '' */
+.icon-location:before { content: '\e802'; } /* '' */
+.icon-phone:before { content: '\e803'; } /* '' */
+.icon-mail:before { content: '\e805'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
+.icon-flag-checkered:before { content: '\f11e'; } /* '' */

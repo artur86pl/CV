@@ -1,10 +1,13 @@
 body{
-    background-color: #E6F4F1;
     color: #013048;
     margin: 0;
     font-family: 'PT Sans', sans-serif;
-    line-height: 1.3em;
+    line-height: 1.5em;
     text-align:justify;
+}
+
+#wrapper{
+    background-color: #E6F4F1;    
 }
 
 figure{
@@ -23,21 +26,21 @@ main{
 }
 
 #introduction article{
-    padding: 1em 0;
+    padding: 0;
 } 
 
 figure{
     text-align: center;
-    padding: 2em 0 0;
+    padding-top: 2em;
 }
 
-figure p, figure h1{
+figure p, figure h1, figure h6{
     margin: 0;
 }
 
 img{
     border-radius: 50%;
-    max-height: 30vh;
+    max-height: 25vh;
 }
 
 #career h3, #career h4, #career h6{
@@ -61,13 +64,33 @@ img{
     margin: auto
 }
 
+.icon-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.icon{
+    font-size: 2em;
+    padding-right: .5em;
+}
+
+.icon-list > li{
+    display: flex;
+    align-items: center;
+}
+
+.icon-list > li > p{
+    margin: 0;
+}
+
 .separation > article::after{
     content: "";
     display: block;
     background-color: #013048;
     height: 1px;
     width: 70%;
-    margin: auto
+    margin: auto;
+    margin-bottom: 2em;
 }
 
 .separation > :last-child::after {
@@ -82,3 +105,60 @@ img{
 #technologies > ul{
     margin-bottom: 2em;
 }
+
+@media (min-width: 768px) {
+    #introduction{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .separation > article::after{
+        height: 0px;
+    }
+
+    img{
+        max-height: 35vh;
+    }
+
+    #contact{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #about{
+        margin-bottom: 8em;
+    }
+
+ }
+
+ @media (min-width: 992px) {
+
+    figure{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #introduction{
+        max-width: 25%;
+        align-content: flex-start;
+        padding: 0 1em;
+    }
+
+    img{
+        max-width: 100%
+    }
+
+    #contact{
+        margin: 0;
+    }
+
+    #wrapper{
+        max-width: 1200px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+ }
