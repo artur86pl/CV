@@ -12,7 +12,7 @@ figure{
 }
 
 main{
-    padding: 0 4em;
+    padding: 0 4em 2em;
 }
 
 #introduction{
@@ -22,14 +22,13 @@ main{
     padding: 0 4em;
 }
 
-#introduction ul, 
 #introduction article{
     padding: 1em 0;
 } 
 
 figure{
     text-align: center;
-    padding: 2em 0;
+    padding: 2em 0 0;
 }
 
 figure p, figure h1{
@@ -39,4 +38,47 @@ figure p, figure h1{
 img{
     border-radius: 50%;
     max-height: 30vh;
+}
+
+#career h3, #career h4, #career h6{
+    margin: 0;
+}
+
+#career article{
+    margin: 3em 0;
+}
+
+#career section{
+    margin: 2em 0;
+}
+
+#career > section::after{
+    content: "";
+    display: block;
+    background-color: #013048;
+    height: 2px;
+    width: 90%;
+    margin: auto
+}
+
+.separation > article::after{
+    content: "";
+    display: block;
+    background-color: #013048;
+    height: 1px;
+    width: 70%;
+    margin: auto
+}
+
+.separation > :last-child::after {
+    content: "";
+    display: block;
+    background-color: #013048;
+    height: 0;
+    width: 70%;
+    margin: auto
+}
+
+#technologies > ul{
+    margin-bottom: 2em;
 }
