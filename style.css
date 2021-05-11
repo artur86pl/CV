@@ -113,10 +113,6 @@ img{
         align-items: center;
     }
 
-    .separation > article::after{
-        height: 0px;
-    }
-
     img{
         max-height: 35vh;
     }

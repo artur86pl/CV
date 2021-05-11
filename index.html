@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/awes.css">
     </heda>
-    <body>
+    <body onclick="functionPackage()"> 
         <div id="wrapper">
             <header  id="introduction">
                 <figure>
@@ -54,29 +54,31 @@
                     <section class="separation" id="knowlege">
                         <div id="technologies">
                             <h2>Technologie</h2>
-                            <ul>
-                                <li>HTML5</li>
+                            <ul id="technologies_list">
+                                <!-- <li>HTML5</li>
                                 <li>CSS3</li>
                                 <li>Java Script</li>
                                 <li>Git</li>
                                 <li>React</li>
-                                <li>Boodstrap</li>
+                                <li>Boodstrap</li> -->
                             </ul>
                         </div>
                         <div id="skills">
                             <h2>Umiejętność</h2>
-                                <ul>
-                                <li>Praca zespołowa</li>
+                                <ul id="skills_list">
+                                <!-- <li>Praca zespołowa</li>
                                 <li>Język angielski B1/B2</li>
-                                <li>Prawo jazdy kat. B</li>
+                                <li>Prawo jazdy kat. B</li> -->
                             </ul>
                         </div>
                     </section>
 
-                    <section  class="separation" id="experience">
+                    <section  class="separation">
                         <h2>Doświadczenie zawodowe</h2>
-                        <article>
-                            <header>
+                        <div id="works">
+
+                            <!-- <article>
+                                <header>
                                 <h3>RTV Euro AGD</h3>
                                 <h6 class="explanation">sieć sklepów z elektroniką</h6>
                                 <h4 class="period">2012-obecnie</h4>
@@ -126,7 +128,7 @@
                                 Ankietowanie respondentów metodą wywiadu bezpośredniego. Umawianie spotkań. Weryfikacja danych.
                             </section>
                         </article>
-                    
+                        
                         <article>
                             <header>
                                 <h3>"Droma" Zbigniew Włosek</h3>
@@ -138,7 +140,7 @@
                                 Przyjmowanie zamówień klienta zagranicznego. Projektowanie zaciemnień okiennych typu screen. Nadzór nad załadunkiem.
                             </section>
                         </article>
-                    
+                        
                         <article>
                             <header>
                                 <h3>PIEKARY.NET</h3>
@@ -150,8 +152,9 @@
                                 Pomoc w diagnostyce i serwisowaniu sprzętu komputerowego. Prowadzenie kawiarenki internetowej.
                             </section>
                         </article>
-                    </section>
-                
+                    </section> -->
+                </div>
+                    
                     <section class="separation" id="education">                    
                         <h2>Edukacja</h2>                    
                         <article>
@@ -161,7 +164,7 @@
                                 <h4 class="period">2009-2011</h4>
                             </header>
                         </article>
-                    
+                        
                         <article>
                             <header>
                                 <h3>Elektronika i Telekomunikacja</h3>
@@ -177,13 +180,14 @@
                 <section id="hobby">
                     <h2>Zainteresowania</h2>
                     <ul class="icon-list">
-                        <li><i class="icon-mic icon"></i> Podcasty popularnonaukowe</li>
-                        <li><i class="icon-gamepad  icon"></i> Gry komputerowe i planszowe</li>
-                        <li><i class="icon-beaker  icon"></i> Nowczesne technologie</li>
-                        <li><i class="icon-flag-checkered  icon"></i> Formuła 1</li>
-                    </ul>
-                </section>
-            </main>
-        </div>    
-    </body>
-</html>
+                        <!-- <li><i class="icon-mic icon"></i> Podcasty popularnonaukowe</li>
+                            <li><i class="icon-gamepad  icon"></i> Gry komputerowe i planszowe</li>
+                            <li><i class="icon-beaker  icon"></i> Nowoczesne technologie</li>
+                            <li><i class="icon-flag-checkered  icon"></i> Formuła 1</li> -->
+                        </ul>
+                    </section>
+                </main>            
+            </div>
+            <script src="data.js"></script>
+        </body>
+        </html>
