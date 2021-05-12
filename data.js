@@ -20,7 +20,7 @@ const hobby =
         icon: 'icon-mic',
     },
     {
-        action: 'Backpacking',
+        action: 'Podróże miedzynarodowe',
         icon: 'icon-globe',
     },
     {
@@ -115,7 +115,7 @@ const worksList =  works.map(item =>
 const getTechnologies = () => document.getElementById('technologies_list').innerHTML = technologiesList;
 const getSkills = () => document.getElementById('skills_list').innerHTML = skillsList;
 const getWorks = () => document.getElementById('works').innerHTML = worksList;
-const getHobby = () => document.getElementById('hobby').innerHTML = hobbyList;
+const getHobby = () => document.getElementById('hobby_list').innerHTML = hobbyList;
 
 const functionPackage = () => {
     getTechnologies();

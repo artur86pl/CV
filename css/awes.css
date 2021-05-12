@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'awes';
-  src: url('../font/awes.eot?6027247');
-  src: url('../font/awes.eot?6027247#iefix') format('embedded-opentype'),
-       url('../font/awes.woff2?6027247') format('woff2'),
-       url('../font/awes.woff?6027247') format('woff'),
-       url('../font/awes.ttf?6027247') format('truetype'),
-       url('../font/awes.svg?6027247#awes') format('svg');
+  src: url('../font/awes.eot?25714646');
+  src: url('../font/awes.eot?25714646#iefix') format('embedded-opentype'),
+       url('../font/awes.woff2?25714646') format('woff2'),
+       url('../font/awes.woff?25714646') format('woff'),
+       url('../font/awes.ttf?25714646') format('truetype'),
+       url('../font/awes.svg?25714646#awes') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'awes';
-    src: url('../font/awes.svg?6027247#awes') format('svg');
+    src: url('../font/awes.svg?25714646#awes') format('svg');
   }
 }
 */
@@ -59,6 +59,8 @@
 .icon-beaker:before { content: '\e801'; } /* '' */
 .icon-location:before { content: '\e802'; } /* '' */
 .icon-phone:before { content: '\e803'; } /* '' */
+.icon-globe:before { content: '\e804'; } /* '' */
 .icon-mail:before { content: '\e805'; } /* '' */
+.icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-gamepad:before { content: '\f11b'; } /* '' */
 .icon-flag-checkered:before { content: '\f11e'; } /* '' */

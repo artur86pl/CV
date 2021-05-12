@@ -18,6 +18,11 @@ main{
     padding: 0 4em 2em;
 }
 
+a{
+    text-decoration: none;
+    color: #E6F4F1;
+}
+
 #introduction{
     background-color:  #013048;
     color: #E6F4F1;
