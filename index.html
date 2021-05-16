@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/awes.css">
     </heda>
-    <body>
+    <body onload="functionPackage()"> 
         <div id="wrapper">
             <header  id="introduction">
                 <figure>
@@ -35,6 +35,12 @@
                             </p>
                         </li>
                         <li>
+                            <i class="icon-github-circled  icon"></i> 
+                            <a href="https://github.com/artur86pl/CV" target="_blank">
+                                github.com/artur86pl/CV
+                            </a>
+                        </li>
+                        <li>
                             <i class="icon-location  icon"></i> 
                             <p>
                                 ul. Wiśniowa 6/2 <br>
@@ -51,107 +57,28 @@
             </header>
             <main>
                 <div id="career">
+
                     <section class="separation" id="knowlege">
                         <div id="technologies">
                             <h2>Technologie</h2>
-                            <ul>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>Java Script</li>
-                                <li>Git</li>
-                                <li>React</li>
-                                <li>Boodstrap</li>
+                            <ul id="technologies_list">
+
                             </ul>
                         </div>
                         <div id="skills">
                             <h2>Umiejętność</h2>
-                                <ul>
-                                <li>Praca zespołowa</li>
-                                <li>Język angielski B1/B2</li>
-                                <li>Prawo jazdy kat. B</li>
+                                <ul id="skills_list">
+
                             </ul>
                         </div>
                     </section>
 
-                    <section  class="separation" id="experience">
+                    <section>
                         <h2>Doświadczenie zawodowe</h2>
-                        <article>
-                            <header>
-                                <h3>RTV Euro AGD</h3>
-                                <h6 class="explanation">sieć sklepów z elektroniką</h6>
-                                <h4 class="period">2012-obecnie</h4>
-                            </header>
-                            <section class="job">
-                                <strong>Kierownik Zmiany <span class="period">(2013-obecnie)</span>:</strong> 
-                                Nadzór nad sprzedażą oraz terminową realizacją zadań. Zarządzanie zespołem sprzedawców. Zarządzanie asortymentem. Zapewnienie jak najwyższych standardów obsługi klienta. Dbanie o wystrój sklepu zgodnie z założeniami firmy.
-                            </section>
-                            <section class="job">
-                                <strong>Doradca klienta <span class="period">(2012-2013)</span>:</strong> 
-                                Profesjonalna obsługa klienta, zgodna ze Standardami Obsługi Klienta. Realizacja indywidualnych planów sprzedażowych. Sprzedaż produktów finansowych (kredyty ratalne). Przyjmowanie dostaw i przygotowanie towarów do sprzedaży. 
-                            </section>
-                        </article>
-                        
-                        <article>
-                            <header>
-                                <h3>BBCM</h3>
-                                <h6 class="explanation">agencja badań marketingowych</h6>
-                                <h4 class="period">2012</h4>
-                            </header>
-                            <section class="job">
-                                <strong>Ankieter telefoniczny:</strong> 
-                                Prowadzenie wywiadów telefonicznych z respondentami prywatnymi, firmami i instytucjami.
-                            </section>
-                        </article>
-                        
-                        <article>
-                            <header>
-                                <h3>Niezależny Operator Międzystrefowy</h3>
-                                <h6 class="explanation">operator telefonii stacjonarnej</h6>
-                                <h4 class="period">2012</h4>
-                            </header>
-                            <section class="job">
-                                <strong>Przedstawiciel handlowy:</strong> 
-                                Prowadzenie wywiadów telefonicznych z respondentami prywatnymi, firmami i instytucjami.
-                            </section>
-                        </article>
-                        
-                        <article>
-                            <header>
-                                <h3>Urząd Statystyczny</h3>
-                                <h6 class="explanation">instytucja państwowa</h6>
-                                <h4 class="period">2011</h4>
-                            </header>
-                            <section class="job">
-                                <strong>Rachmistrz:</strong> 
-                                Ankietowanie respondentów metodą wywiadu bezpośredniego. Umawianie spotkań. Weryfikacja danych.
-                            </section>
-                        </article>
+                        <div id="works" class="separation">
+
+                </div>
                     
-                        <article>
-                            <header>
-                                <h3>"Droma" Zbigniew Włosek</h3>
-                                <h6 class="explanation">producent rolet i osłon okiennych</h6>
-                                <h4 class="period">2010</h4>
-                            </header>
-                            <section class="job">
-                                <strong>Pracownik działu eksportu:</strong> 
-                                Przyjmowanie zamówień klienta zagranicznego. Projektowanie zaciemnień okiennych typu screen. Nadzór nad załadunkiem.
-                            </section>
-                        </article>
-                    
-                        <article>
-                            <header>
-                                <h3>PIEKARY.NET</h3>
-                                <h6 class="explanation">dostawca usług telekomunikacyjnych</h6>
-                                <h4 class="period">2007</h4>
-                            </header>
-                            <section class="job">
-                                <strong>Praktykant:</strong> 
-                                Pomoc w diagnostyce i serwisowaniu sprzętu komputerowego. Prowadzenie kawiarenki internetowej.
-                            </section>
-                        </article>
-                    </section>
-                
                     <section class="separation" id="education">                    
                         <h2>Edukacja</h2>                    
                         <article>
@@ -161,7 +88,7 @@
                                 <h4 class="period">2009-2011</h4>
                             </header>
                         </article>
-                    
+                        
                         <article>
                             <header>
                                 <h3>Elektronika i Telekomunikacja</h3>
@@ -171,19 +98,21 @@
                             <section class="job">
                                 Tytuł: <strong>Inżynier</strong>
                             </section>
-                        </article>                
+                        </article> 
+
                     </section>
+
                 </div>
+
                 <section id="hobby">
                     <h2>Zainteresowania</h2>
-                    <ul class="icon-list">
-                        <li><i class="icon-mic icon"></i> Podcasty popularnonaukowe</li>
-                        <li><i class="icon-gamepad  icon"></i> Gry komputerowe i planszowe</li>
-                        <li><i class="icon-beaker  icon"></i> Nowczesne technologie</li>
-                        <li><i class="icon-flag-checkered  icon"></i> Formuła 1</li>
+                    <ul id="hobby_list" class="icon-list">
+
                     </ul>
                 </section>
-            </main>
-        </div>    
-    </body>
-</html>
+
+                </main>            
+            </div>
+            <script src="data.js"></script>
+        </body>
+        </html>
